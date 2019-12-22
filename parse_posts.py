@@ -23,7 +23,7 @@ def get_recipes():
         
         if is_recipe(cats):
             recipes.append((title, url)) 
-            count = count + 1
+            count += 1
 
     print "Found {} Recipes.".format(count)
     return recipes
